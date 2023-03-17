@@ -1,6 +1,6 @@
 <span id="title">
 
-# Competition Organizer Template
+# Pick And Place Competition
 
 </span>
 
@@ -22,7 +22,7 @@ To organize your own competition, follow the instructions in the [ORGANIZER.md](
 
 <span id="description">
 
-Write here a short description of your competition.
+Program a youBot mobile manipulator robot to pick and place a cube as quickly as possible.
 
 </span>
 
@@ -32,10 +32,10 @@ Write here a short description of your competition.
 
 <span id="information">
 
-- Difficulty: Middle School, High School, Bachelor, Master or PhD
-- Robot: robot name
-- Language: programming language of the controller template
-- Commitment: amount of time needed to participate in the competition
+- Difficulty: Bachelor
+- Robot: youBot
+- Language: Python
+- Commitment: a few hours
 
 </span>
 
