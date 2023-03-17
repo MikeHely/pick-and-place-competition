@@ -24,7 +24,7 @@ WorldInfo {
     "Benchmark objective:"
     "move the box and place it on the target position."
   ]
-  title "Pick and Place"
+  title "Pick and Place Competition"
   window "pick_and_place"
   basicTimeStep 16
   contactProperties [
