@@ -39,8 +39,8 @@ boxPicked = False
 notMovingStepCount = 0
 while robot.step(timestep) != -1:
     position = boxNode.getPosition()
-    distance = round(math.sqrt(math.pow(targetPosition[0] - position[0], 2) +
-                               math.pow(targetPosition[1] - position[1], 2)), 4)
+    distance = round(math.sqrt(math.pow(targetPosition[0] - position[0], 2)
+                               + math.pow(targetPosition[1] - position[1], 2)), 4)
     time = robot.getTime()
     robot.wwiSendText("update: " + str(time) + " {0:.4f}".format(distance))
     if boxPicked and distance < 0.036 and position[2] < 0.156:
